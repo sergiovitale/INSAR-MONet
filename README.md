@@ -37,12 +37,6 @@ By downloading and/or using any of these files, you implicitly agree to all the
 terms of the license, as specified in the document LICENSE.txt
 (included in this directory)
 
-# Prerequisits
-This code is written on Ubuntu system for Python3.7 and uses Pytorch library.
-
-INSERISCI ENVIRONMENT
-
-
 # Usage 
 * **data** folder contains three samples images with simulated interferometric SAR phases (corresponding to the examples of the paper);
 Three differente cases can be tested:
