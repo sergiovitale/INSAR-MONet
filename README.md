@@ -14,7 +14,7 @@ InSAR-MONet inherits the 17 layers CNN architectures and the concept of using a 
 The cost function is composed of three terms taking care of spatial and statistical properties of the interferometric phase: a cosine based metric for evaluating similarity between output and reference, a gradient based metric for edges preservation and the Kullback-Leibler divergence between estimated noise distribution and the theoretical one.
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/36993034/197556133-3ce13133-b3ec-4913-a8a9-0ead333e6c7e.png" width=30> <img src="https://user-images.githubusercontent.com/36993034/197556216-307418ae-1cd4-4734-b837-61ed111f93d3.png" width = 400>
+<img src="https://user-images.githubusercontent.com/36993034/197556133-3ce13133-b3ec-4913-a8a9-0ead333e6c7e.png" width=300> <img src="https://user-images.githubusercontent.com/36993034/197556216-307418ae-1cd4-4734-b837-61ed111f93d3.png" width = 400>
 </p>
 
 An example on simulated data is shown below
