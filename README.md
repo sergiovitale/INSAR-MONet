@@ -66,24 +66,24 @@ and follow the instruction for installation
 > PATH=~/anaconda3/bin:$PATH
 
 **Installing the conda environment**
-The file ./env/monet_pytorch.yml contains the environemnt for the testing the code. You can easily installing it by command line:
+The file ./env/insarmonet_env.yml contains the environemnt for the testing the code. You can easily installing it by command line:
 
 1. move to the folder './env/' and open the terminal
 2. run the following command
- > conda env create -f monet_pytorch.yml
+ > conda env create -f insarmonet_env.yml
 
 
 Once the pre-requisites are fulfilled, open the terminal:
 
 1. activate the environemnt from the command line
 
-> conda activate monet_pytorch
+> conda activate insarmonet_env
 
 2. launch spyder
 
 > spyder
 
-3. goes to the folder containing **test.py**, edit and run
+3. goes to the folder containing **testing.py**, edit and run
 
 
 
