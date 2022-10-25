@@ -50,3 +50,40 @@ Three differente cases can be tested:
 * *model* contains trained weigths
 * *model.py* contains the model implementation
 * *testing.py* is the main script for testing
+
+# Prerequisites
+This code is written on Ubuntu system for Python3.7 and uses Pytorch library.
+
+For a correct usage of the code, please install the python environement saved in **./env/monet_pytorch.yml** with the following step:
+
+**Installing Anaconda** (if not already installed)
+
+1. download anaconda3 from https://www.anaconda.com/products/individual#linux
+2. from command line, move to the download directory and install the package by:
+> sh <Anaconda_downloaded_version>.sh 
+and follow the instruction for installation
+3. add conda to path
+> PATH=~/anaconda3/bin:$PATH
+
+**Installing the conda environment**
+The file ./env/monet_pytorch.yml contains the environemnt for the testing the code. You can easily installing it by command line:
+
+1. move to the folder './env/' and open the terminal
+2. run the following command
+ > conda env create -f monet_pytorch.yml
+
+
+Once the pre-requisites are fulfilled, open the terminal:
+
+1. activate the environemnt from the command line
+
+> conda activate monet_pytorch
+
+2. launch spyder
+
+> spyder
+
+3. goes to the folder containing **test.py**, edit and run
+
+
+
