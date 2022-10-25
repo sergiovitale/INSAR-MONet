@@ -7,17 +7,20 @@ denoising using a multi-objective neural network](mettere citazione).
 
 
 InSAR-MONet inherits the 17 layers CNN architectures and the concept of using a multi-objective cost function from [MONet](https://ieeexplore.ieee.org/document/9261137). 
-
-![net](https://user-images.githubusercontent.com/36993034/197556012-74be765f-48e6-44e9-85d6-b706a9928611.png)
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/36993034/197556012-74be765f-48e6-44e9-85d6-b706a9928611.png" width="800">
+</p>
+  
 The cost function is composed of three terms taking care of spatial and statistical properties of the interferometric phase: a cosine based metric for evaluating similarity between output and reference, a gradient based metric for edges preservation and the Kullback-Leibler divergence between estimated noise distribution and the theoretical one.
 
-![cost](https://user-images.githubusercontent.com/36993034/197556133-3ce13133-b3ec-4913-a8a9-0ead333e6c7e.png)
-![cost2](https://user-images.githubusercontent.com/36993034/197556216-307418ae-1cd4-4734-b837-61ed111f93d3.png)
+<p align="center">
+<img src="https://user-images.githubusercontent.com/36993034/197556133-3ce13133-b3ec-4913-a8a9-0ead333e6c7e.png" width=400> <img src="https://user-images.githubusercontent.com/36993034/197556216-307418ae-1cd4-4734-b837-61ed111f93d3.png" width = 500>
+</p>
 
 An example on simulated data is shown below
-Noisy Image| Noise-Free Reference | MONet - Output 
------------------------------------------|---------------------------------------|--------------------------------------
-![immagine](https://user-images.githubusercontent.com/36993034/197556940-3af2a154-d82d-4df3-b18d-bd37b0258bd7.png) |![immagine](https://user-images.githubusercontent.com/36993034/197557009-a407aea1-8f7c-41a5-834c-87066edace1e.png) |![immagine](https://user-images.githubusercontent.com/36993034/197557074-e7566a82-f0bf-4853-9776-8ef22aa77c82.png)
+Noisy Image| Noise-Free Reference | InSAR-MONet 
+:-----------------------------------------|:---------------------------------------:|:--------------------------------------:
+<img src="https://user-images.githubusercontent.com/36993034/197556940-3af2a154-d82d-4df3-b18d-bd37b0258bd7.png" width="150"> |<img src="https://user-images.githubusercontent.com/36993034/197557009-a407aea1-8f7c-41a5-834c-87066edace1e.png" width="150"> |<img src="https://user-images.githubusercontent.com/36993034/197557074-e7566a82-f0bf-4853-9776-8ef22aa77c82.png" width="150">
 
 # Team members
  Sergio Vitale    (contact person, sergio.vitale@uniparthenope.it);
