@@ -75,7 +75,7 @@ The file ./insarmonet_env.yml contains the environemnt for the testing the code.
  > conda env create -f insarmonet_env.yml
 
 
-Once the pre-requisites are fulfilled, open the terminal:
+Once environment has been set up, activate it by command line as well:
 
 1. activate the environemnt from the command line
 
