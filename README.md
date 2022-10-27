@@ -67,6 +67,7 @@ and follow the instruction for installation
 > PATH=~/anaconda3/bin:$PATH
 
 **Installing the conda environment**
+
 The file ./insarmonet_env.yml contains the environemnt for the testing the code. You can easily installing it by command line:
 
 1. move to the folder containing the github repository and open the terminal
