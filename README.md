@@ -1,9 +1,9 @@
 # INSAR-MONet
-This repository contains the testing code of **InSAR-MONet**, a CNN based solution for Interferometric SAR Phase denoising.
+This repository contains the testing code of [InSAR-MONet: Interferometric SAR phase
+denoising using a multi-objective neural network](https://ieeexplore.ieee.org/document/9961176)., a CNN based solution for Interferometric SAR Phase denoising.
 
-if you find it usefule and use it for you research, please cite as the following [InSAR-MONet: Interferometric SAR phase
-denoising using a multi-objective neural network](mettere citazione).
-
+if you find it usefule and use it for you research, please cite as the following:
+> S. Vitale, G. Ferraioli, V. Pascazio and G. Schirinzi, "InSAR-MONet: Interferometric SAR Phase Denoising Using a Multiobjective Neural Network," in IEEE Transactions on Geoscience and Remote Sensing, vol. 60, pp. 1-14, 2022, Art no. 5239814, doi: 10.1109/TGRS.2022.3224303.
 
 
 InSAR-MONet inherits the 17 layers CNN architectures and the concept of using a multi-objective cost function from [MONet](https://ieeexplore.ieee.org/document/9261137). 
